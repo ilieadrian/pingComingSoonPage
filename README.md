@@ -1,5 +1,5 @@
-# Frontend Mentor - Article preview component HTML, CSS, JS Challenge
+# Frontend Mentor - Ping coming soon page: HTML, CSS, JS Challenge
 
-Live version: https://articlepreviewia.netlify.app/
+Live version: https://pingcomingsoonia.netlify.app
 
 Coded by [Ilie Adrian](https://www.ilieadrian.com) 
