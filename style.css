@@ -48,9 +48,9 @@ p {
 
 form {
     display: flex;
-    align-items: center;
-
+    align-items: flex-start;
     text-align: left;
+    margin-bottom: 70px;
 }
 
 .controller {
@@ -62,6 +62,8 @@ form {
 }
 
 input {
+    display: inline-block;
+    flex: 0.7;
     border: 1px solid hsl(0, 0%, 59%);
     border-radius: 50px;
     padding: 15px 25px;
@@ -70,12 +72,12 @@ input {
     font-family: 'Libre Franklin', sans-serif;
     color: hsl(0, 0%, 59%);
     margin-bottom: 10px;
-
 }
 
 input.error {
     border: 1px solid hsl(354, 100%, 66%);
 }
+
 
 form small {
     padding-left: 15px;
@@ -85,28 +87,23 @@ form small {
 }
 
 button {
-    /* text-align: center;
+    display: inline-block; 
+    font-family: 'Libre Franklin', sans-serif;
+    text-align: center;
     flex: 0.3;
-    padding: 20px 0;
-    margin-bottom: 24px;
+    padding: 15px 25px;
     background-color: hsl(223, 100%, 88%);
+    border: 1px solid hsl(223, 100%, 88%);
     color: #fff;
     font-size: 16px;
     font-weight: 600;
-    border: none;
-    border-radius: 50px; */
-    background-color: hsl(223, 87%, 63%);
-	border: none;
-	border-radius: 50px;
-	box-shadow: 0 5px 5px hsl(223, 100%, 88%);
-	color: #fff;
-	cursor: pointer;
-	font-family: 'Libre Franklin', sans-serif;
-	font-size: 16px;
-	font-weight: 600;
-	padding: 20px 0;
-	margin-left: 20px;
-	flex: 0.3;
+    border-radius: 50px;
+    outline: none;
+    cursor: pointer;
+}
+
+.ilustration {
+    width: 100%;
 }
 
 .attribution { 
