@@ -72,6 +72,7 @@ input {
     font-family: 'Libre Franklin', sans-serif;
     color: hsl(0, 0%, 59%);
     margin-bottom: 10px;
+    outline: none;
 }
 
 input.error {
@@ -84,6 +85,7 @@ form small {
     font-size: 10px;
     font-style: italic;
     color: hsl(354, 100%, 66%);
+    display: none;
 }
 
 button {
@@ -92,18 +94,65 @@ button {
     text-align: center;
     flex: 0.3;
     padding: 15px 25px;
-    background-color: hsl(223, 100%, 88%);
-    border: 1px solid hsl(223, 100%, 88%);
+    background-color: #4C7BF3;
+    border: 1px solid #4C7BF3;
     color: #fff;
     font-size: 16px;
     font-weight: 600;
     border-radius: 50px;
+    box-shadow: 0px 10px 20px  hsl(223, 100%, 88%);
     outline: none;
     cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+button:hover {
+    transform: scale(0.98);
+    background-color: #7498f1;
 }
 
 .ilustration {
     width: 100%;
+    margin-bottom: 70px;
+}
+
+.social-logos {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+li {
+    border: 1px solid hsl(0, 0%, 59%);
+    border-radius: 50%;
+    margin-right: 15px;
+    color: #4C7BF3;
+    width: 30px;
+    height: 30px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s ease-in-out;
+}
+
+li:hover {
+    color: #fff;
+    background-color: #4C7BF3;
+    border: 1px solid #4C7BF3;
+}
+
+
+li i {
+    font-size: 15px;
+}
+
+footer small {
+    text-align: center;
+    font-size: 10px;
+    color: hsl(0, 0%, 59%);
 }
 
 .attribution { 
@@ -111,5 +160,34 @@ button {
     text-align: center; 
 }
 .attribution a { 
-    color: hsl(228, 45%, 44%); 
+    color: hsl(0, 0%, 59%);
+}
+
+@media only screen and (max-width: 470px) {
+    body {
+        font-size: 16px;
+    }
+    form {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .controller {
+        flex: 1;
+        width: 100%;
+    }
+
+    button {
+        width: 100%;
+    }
+
+    form small {
+        text-align: center;
+        align-self: center; 
+        margin-bottom: 25px;
+    }
+
+    .ilustration {
+        margin-bottom: 90px;
+    }
 }
