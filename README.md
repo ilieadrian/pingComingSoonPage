@@ -1,6 +1,7 @@
 <h1>Ping Coming Soon Page</h1>
 
 This project is a responsive "Coming Soon" landing page for a service called Ping, designed using HTML, CSS, and JavaScript. This project is part of a [Frontend Mentor](https://www.frontendmentor.io/) challenge and demonstrates essential front-end skills for building interactive landing pages with form validation. 
+
 [Live version](https://pingcomingsoonia.netlify.app)
 
 <h3>Features</h3>
