@@ -39,7 +39,7 @@ Alternatively, you can view the live version of the project [here](https://pingc
 
   * Build a responsive and visually appealing landing page.
   * Implement client-side form validation using JavaScript.
-  * Improve skills in CSS for layout and responsive design.
+  * Improve skills in CSS for layout and responsive design. 
 
 
 <h3>License</h3>
